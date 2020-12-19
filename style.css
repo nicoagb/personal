@@ -115,6 +115,8 @@ label #sidebar_btn:hover{
   width: 100%;
 }
 
+
+
 .content{
   width: (100% - 250px);
   margin-top: 60px;
@@ -140,9 +142,16 @@ label #sidebar_btn:hover{
 .mobile_nav{
   display: none;
 }
-
-
-
+.mdl-card{
+min-height: 85% !important;
+width: 100%!important;
+background-image: url("img/bg.jpg") !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+background-size: cover;
+position: relative;
+filter:drop-shadow(8px 8px 10px gray) !important;
+}
 .mdl-card + .mdl-card {
   margin-top: 40px;
 }
@@ -157,7 +166,7 @@ label #sidebar_btn:hover{
 .mdl-card--horizontal .mdl-card__media {
   left: 0;
   position: absolute;
-  width: 150px;
+  width: 450px;
 }
 .mdl-card--horizontal .mdl-card__supporting-text {
   flex: 1 1 auto;
@@ -253,3 +262,58 @@ label #sidebar_btn:hover{
   }
 }
 
+.content div h2 span {
+  color: white;
+  font: bold 85px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.content div h2 {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  width: 100%;
+}
+
+.infotb {
+  
+  border-collapse: collapse;
+  width: 100%;
+  font-size:30px;
+  line-height: 1.6;
+}
+
+.infotb td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.infotb tr:nth-child(even){background-color: #f2f2f2;}
+
+.infotb tr:hover {background-color: #4ed5f044;}
+.infotb tr th span{ margin: 20px;}
+.infotb th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #22242A;
+  color: white;
+}
+
+.infotb tr th a{
+  margin: 20px 20px;
+  color: white;
+}
+
+#home{display: none;}
+#basic,#educ,#exp{display: none;
+  padding-top: 50px;
+  padding-right: 230px;
+  padding-bottom: 50px;
+  padding-left: 230px;
+  
+
+}
